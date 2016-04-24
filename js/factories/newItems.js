@@ -6,7 +6,7 @@
   .factory("newItems", newItems);
 
   var item = [];
-
+  // test
   var localStorageKey = "toDos-angular";
   if (!localStorage.getItem(localStorageKey)) {
     console.log("Updating storage");
